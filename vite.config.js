@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    base: '/', // Pastikan base path benar
+    server: {
+        https: true, // Hindari mixed content error
+    }
 });
