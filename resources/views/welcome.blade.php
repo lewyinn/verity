@@ -8,6 +8,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3">
         <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
             <a class="sm:order-1 flex justify-center items-end gap-1 text-2xl text-[#FE6716] font-extrabold focus:outline-none focus:opacity-80" href="#">
@@ -85,7 +86,6 @@
             </div>
         </nav>
     </header>
-
 
 </body>
 </html>
